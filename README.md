@@ -1,4 +1,4 @@
-# cert-course-template
+# animated-cert-course
 
 **A template for building an animated, narrated video course for any certification exam — with
 AI doing the production work and you doing the understanding.**
@@ -17,7 +17,7 @@ build survived on, including the rules that only exist because a render got reje
 Point a coding agent at it and tell it what you're studying:
 
 ```
-Clone https://github.com/<owner>/cert-course-template and read AGENTS.md.
+Clone https://github.com/BrandonWH20/animated-cert-course and read AGENTS.md.
 Let's build a course for the <YOUR CERT> exam — here's the official exam guide: <link or paste>.
 ```
 
