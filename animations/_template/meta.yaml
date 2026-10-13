@@ -1,0 +1,12 @@
+id: _template
+title: "Template Chapter — the worked reference"
+scene_class: TemplateChapter
+series: example-course
+cert_domain: "<CERT> (Domain N)"
+concepts: [timing-engine, transform-not-swap, computed-number, weighted-chart]
+target_duration_s: 60           # time-synced to source audio 0.0-60.0s (must match, drift < 0.5s)
+status: draft                   # draft | scripted | rendered | published
+publish:
+  youtube: { status: not-started, video_id: "" }
+  course:  { status: not-started, lecture_id: "" }
+  blog:    { status: not-started, url: "" }

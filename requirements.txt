@@ -1,0 +1,4 @@
+# Animation engine. Text/MarkupText only — no LaTeX dependency.
+manim==0.21.0
+# Transcription with word-level timestamps (Apple Silicon; use openai-whisper elsewhere).
+mlx-whisper

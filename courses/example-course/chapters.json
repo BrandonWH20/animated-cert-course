@@ -1,0 +1,27 @@
+{
+  "course": "example-course",
+  "title": "Example Course — Time-Synced Companion Video",
+  "source_audio": "/absolute/path/to/your/module/Audio/episode.m4a",
+  "audio_duration_s": 60.0,
+  "transcript": "courses/example-course/transcript/transcript.json",
+  "sync_model": "Each chapter animation's total run_time (plays + waits) MUST equal end-start to the frame. Scenes are concatenated in order and the ORIGINAL audio is muxed over the whole timeline, so exact per-chapter durations keep narration locked to visuals. Do NOT record TTS — the real podcast IS the soundtrack.",
+  "fps": 30,
+  "chapters": [
+    {
+      "id": 1,
+      "slug": "_template",
+      "scene_class": "TemplateChapter",
+      "start": 0.0,
+      "end": 60.0,
+      "domain": "<Domain N — name>",
+      "title": "The Template Chapter",
+      "key_visuals": [
+        "Composed opener: title plus three condition chips assembling one at a time",
+        "HERO: three weighted inputs in real axes coordinates flowing into a summing node",
+        "Live decimal readout counting the running total up to 1.90 as charge flows",
+        "Camera push-in that settles on the node, then resets before the scene ends",
+        "Taxonomy assembling as labelled bars, then reorganizing: bottom two dim, brace gathers the top three"
+      ]
+    }
+  ]
+}

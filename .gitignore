@@ -1,0 +1,14 @@
+.venv/
+media/
+__pycache__/
+*.pyc
+animations/*/renders/
+build/*/
+courses/*/renders/
+courses/*/transcript/*.json
+courses/*/transcript/*.srt
+courses/*/transcript/*.txt
+*.m4a
+*.mp3
+*.mp4
+.DS_Store
